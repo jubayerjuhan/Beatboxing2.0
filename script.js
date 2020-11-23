@@ -52,7 +52,7 @@ let beats = {
         button: new Button ('#FF00FF', 72)
     },
     "74": {
-        beat: new Beat("./assets/Cymbal Suspended 2.mp3"),
+        beat: new Beat("./assets/Cymbal Suspended ll.mp3"),
         button: new Button ('#FF00FF', 74)
     },
     "75": {

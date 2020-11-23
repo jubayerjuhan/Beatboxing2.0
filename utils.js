@@ -22,7 +22,7 @@ class Button {
 
 
     /**
-     * !!Adding Transition end listener Event
+     * !!Adding Transition end listener Event 
      */
 
     setTransitionEndListener = () =>{
