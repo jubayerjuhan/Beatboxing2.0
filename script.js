@@ -7,12 +7,12 @@
  * //Done: Button pt3: Complete select function to set the color and shadow of button upon pressing
  * //Done: Button pt4: Call the select() function upon key press ;)
  * //Done: Button pt5: Add transition for button selection
- * TODO: Button pt6: Remove the button style upon transition end | Use deselect function
- * TODO: Complete all button instances with the following colors
- * TODO: Add background image
- * First 3: #00fffe
- * 4,5,6,7: #FF00FF
- * 8, 9: #FFFFFF
+ * //Done: Button pt6: Remove the button style upon transition end | Use deselect function
+ * //Done: Complete all button instances with the following colors
+ * //Done: Add background image
+ * //First 3: #00fffe
+ * //4,5,6,7: #FF00FF
+ * //8, 9: #FFFFFF
  */
 
 class Beat{
@@ -41,27 +41,27 @@ let beats = {
     },
     "70": {
         beat: new Beat("./assets/Drum Sticks Hit 3.mp3"),
-        button: new Button ('#00fffe', 70)
+        button: new Button ('#FF00FF', 70)
     },
     "71": {
         beat: new Beat("./assets/Drum Snare Roll.mp3"),
-        button: new Button ('#00fffe', 71)
+        button: new Button ('#FF00FF', 71)
     },
     "72": {
         beat: new Beat("./assets/PREL Musical 57.mp3"),
-        button: new Button ('#00fffe', 72)
+        button: new Button ('#FF00FF', 72)
     },
     "74": {
         beat: new Beat("./assets/Cymbal Suspended 2.mp3"),
-        button: new Button ('#00fffe', 74)
+        button: new Button ('#FF00FF', 74)
     },
     "75": {
         beat: new Beat("./assets/Musical Compos 33.mp3"),
-        button: new Button ('#00fffe', 75)
+        button: new Button ('#FFFFFF', 75)
     },
     "76": {
         beat: new Beat("./assets/Musical Orches 4.mp3"),
-        button: new Button ('#00fffe', 76)
+        button: new Button ('#FFFFFF', 76)
     }
 }
 
